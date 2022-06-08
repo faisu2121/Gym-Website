@@ -1,0 +1,526 @@
+/* css reset  */
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+/* header  */
+#navbar {
+    display: flex;
+    align-items: center;
+    background-color:#04070e;
+    position: sticky;
+}
+
+/* logos  and icons*/
+.logo img {
+    height: 125px;
+    margin-left: 25px;
+    margin-top: 5px;
+
+}
+
+/*  list styling  */
+#navbar ul {
+    display: flex;
+}
+
+#navbar ul li {
+    list-style: none;
+    font-size: 1.5rem;
+    font-family: "Oswald", sans-serif;
+    margin-left: 15px;
+}
+
+#navbar ul li a {
+    color: white;
+    cursor: pointer;
+    text-decoration: none;
+    padding: 10px;
+}
+
+#navbar ul li a:hover {
+    color: #f36100;
+    cursor: pointer;
+}
+
+#navbar .fa-search {
+    font-size: 22px;
+    padding: 10px;
+    margin-left: 20px;
+}
+
+#navbar .fa {
+    font-size: 22px;
+    padding: 10px;
+}
+
+#navbar .fa:hover {
+    color: #f36100;
+    cursor: pointer;
+}
+
+/* -----------------------------------------------------------------------------  */
+/* home  */
+#home {
+    height: 833px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: url('../img/home2.jpg') no-repeat center/cover;
+    margin-bottom: -120px;
+}
+
+#home-container {
+    width: 642px;
+    margin-left: 600px;
+    margin-top: 150px;
+
+}
+
+#home1 {
+    font-size: 2.5rem;
+    color: white;
+    margin-top: 30px;
+    letter-spacing: 6px;
+    padding: 15px 5px;
+    font-family: "Oswald", sans-serif;
+    font-weight: bold;
+}
+
+strong {
+    font-size: 6.5rem;
+    margin-right: 10px;
+    color: #f36100;
+    ;
+
+}
+
+#home2 {
+    font-size: 5.5rem;
+    color: white;
+    font-family: "Oswald", sans-serif;
+    font-weight: bold;
+
+}
+
+
+#btn {
+    padding: 15px 30px;
+    color: white;
+    background-color: #f36100;
+    border-color: black;
+    font-size: 20px;
+    border: 2px solid black;
+    border-radius: 2px;
+    cursor: pointer;
+    margin-top: 0px;
+}
+
+#btn:hover {
+    cursor: pointer;
+    color: #f36100;
+    background-color: white;
+    border-color: #f36100;
+}
+
+/* -------------------------------------------------------------------------- */
+/* About  */
+#about {
+    background-color: black;
+    font-family: "Oswald", sans-serif;
+}
+
+.about-container {
+    display: flex;
+
+}
+
+.about-box {
+    text-align: center;
+}
+
+.about-box img {
+    height: 100px;
+    margin: auto;
+    display: block;
+    padding: 20px 10px;
+    border: 2px solid black;
+    background-color: gray;
+    border-radius: 20px;
+}
+
+.about-box img:hover {
+    background-color: #f36100;
+
+}
+
+h3 {
+    padding: 5px 10px;
+    margin: 5px 10px;
+    color: white;
+}
+
+p {
+    padding: 10px 10px;
+    margin: 10px 10px;
+    color: white;
+}
+
+/* ----------------------------------------------------------------------------- */
+/* classes */
+#classes {
+    background-color: #212529;
+    font-family: "Oswald", sans-serif;
+}
+
+.classes-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.classes-box img {
+    height: 300px;
+    margin: 20px 10px;
+    display: flex;
+    border: 2px solid #f36100;
+}
+
+h4 {
+    margin: 5px 10px;
+    padding: 5px 10px;
+    color: #f36100;
+    font-size: 1.5rem;
+}
+
+/* -----------------------------------------------------------------------*/
+/* appointment  */
+#Appointment {
+    height: 600px;
+    text-align: center;
+    background: url('../img/last 1.jpg');
+    font-family: "Oswald", sans-serif;
+}
+
+#appoint1 {
+    margin-top: 10px;
+    padding: 25px 10px;
+    font-size: 3.5rem;
+    color: #f36100;
+
+}
+
+#appoint2 {
+    font-size: 1.5rem;
+    margin: 10px 10px;
+    padding: 10px 10px;
+}
+
+/* ----------------------------------------------------------------------- */
+/* or plan  */
+#plan {
+    background-color: black;
+    font-family: "Oswald", sans-serif;
+}
+
+.plan-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.plan-box {
+    padding: 10px 90px;
+    margin: 20px 20px;
+    border: 2px solid #f36100;
+    background-image: linear-gradient(black, #f36100);
+}
+
+
+.plan-box ul li {
+    color: white;
+    list-style: none;
+    font-size: 20px;
+    line-height: 2;
+}
+
+#month {
+    font-size: 26px;
+    color: white;
+}
+
+h5 {
+    font-size: 2.5rem;
+    color: #f36100;
+    text-shadow: 2px 2px 2px black;
+}
+
+h6 {
+    font-size: 1.5rem;
+    color: white;
+}
+
+/* --------------------------------------------------------------------- */
+/* our team  */
+#team {
+    background-color: black;
+    font-family: "Oswald", sans-serif;
+}
+
+#slide-show {
+    box-sizing: border-box;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}
+
+.myslide {
+    display: none;
+}
+
+.myslide img {
+    height: 320px;
+    vertical-align: middle;
+    margin: 10px 15px;
+    border: 2px solid #f36100;
+    position: relative;
+}
+
+.dot {
+    height: 5px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #212529;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+    margin-bottom: 10px;
+}
+
+.active {
+    background-color: #f36100;
+}
+
+.slide {
+    animation-name: slide;
+    animation-duration: 1.5s;
+
+}
+
+@keyframes slide {
+    from {
+        opacity: .4
+    }
+
+    to {
+        opacity: 1
+    }
+}
+
+/* ------------------------------------------------------------------------- */
+/* contact  */
+#contact {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #212529;
+    padding: 40px 10px;
+}
+
+#contact .fa-circle {
+    pointer-events: none;
+    color: #f36100;
+}
+
+#contact .fa-stack {
+    font-size: 30px;
+}
+
+#contact p {
+    font-size: 1.5rem;
+    color: white;
+}
+
+.contact-container {
+    display: flex;
+}
+
+/* --------------------------------------------------------------- */
+/* more  */
+#more {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: black;
+}
+
+.more1 {
+    /* border: 2px solid white; */
+    padding: 10px 68px;
+    margin: 10px 10px;
+}
+
+.more1 ul li {
+    color: white;
+    padding: 10px 10px;
+    margin: 10px 10px;
+    /* text-align: center; */
+    list-style: none;
+
+}
+
+.more1 ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+.more1 ul li a:hover {
+    color: #f36100;
+    cursor: pointer;
+}
+
+#more-p {
+    color: white;
+    padding: 10px 0px;
+    margin: 10px 0px;
+}
+
+#more .fa {
+    font-size: 35px;
+    padding: 10px;
+}
+
+#more .fa:hover{
+    cursor: pointer;
+    color: #f36100;
+}
+
+/* -------------------------------------------------------------------------- */
+footer {
+    padding: 10px 10px;
+    background-color: #212529;
+    text-align: center;
+    color: white;
+}
+
+/* ------------------------------------------------------------------------ */
+/* Utility Classes  */
+button {
+    background: transparent;
+    border-color: white;
+    padding: 15px 30px;
+    margin: 15px 10px;
+    font-size: 20px;
+    color: white;
+}
+
+button:hover {
+    background-color: #f36100;
+    color: black;
+    cursor: pointer;
+}
+
+.h-primary {
+    font-size: 1.5rem;
+    color: #f36100;
+}
+
+.h-secondry {
+    text-align: center;
+}
+
+h2 {
+    padding: 10px 0px;
+    font-size: 1.8rem;
+    color: white;
+}
+
+/* ---------------------------------------------------------------------- */
+/* responsive sidebar */
+#sidebar {
+    background: black;
+    position: absolute;
+    display: block;
+    width: 200px;
+    height: 162%;
+    left: -200px;
+    top: 0px;
+    transition: left 0.3s linear;
+}
+
+#sidebar.visible {
+    left: 0px;
+    transition: left 0.3s linear;
+}
+
+#sidebar-ul {
+    margin: 0px;
+    padding: 0px;
+}
+
+#sidebar-ul li {
+    list-style: none;
+
+}
+
+#sidebar-ul li a {
+    background-color: #212529;
+    color: white;
+    border-bottom: 1px solid black;
+    display: block;
+    width: 180px;
+    text-decoration: none;
+    padding: 10px;
+    margin-bottom: 3px;
+}
+
+#sidebar-btn {
+    display: inline-block;
+    vertical-align: middle;
+    width: 38px;
+    height: 30px;
+    cursor: pointer;
+    margin: 20px;
+    position: absolute;
+    top: 0px;
+    right: -70px;
+    border: 2px solid white;
+    border-radius: 2px;
+}
+
+#sidebar-btn span {
+    height: 5px;
+    background: white;
+    margin: 4px;
+    display: block;
+}
+
+#sidebar-btn span:nth-child(2) {
+    width: 65%;
+}
+
+#sidebar-btn span:nth-child(3) {
+    width: 50%;
+}
+
+#logo-mini img {
+    height: 90px;
+}
+
+#sidebar .fa {
+    font-size: 22px;
+    padding: 5px;
+}
+
+#logo-mini {
+    position: absolute;
+    margin-right: 5px;
+    margin-top: 10px;
+    right: 10px;
+}
+
+/* --------------------------------------------------------------------------- */
